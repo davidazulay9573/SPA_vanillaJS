@@ -1,0 +1,52 @@
+.iots-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.iot-card {
+    display: flex;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 80%;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+}
+
+.iot-card a {
+    text-decoration: none;
+    flex: 1;
+}
+
+.iot-actions {
+    display: flex;
+    flex-direction: column;
+}
+
+.iot-actions button {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    width: 100px;
+    color: white;
+}
+
+.delete-button {
+    background-color: #dc3545;
+}
+
+.update-button {
+    background-color: #4c75af;
+}
+
+.form-box{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

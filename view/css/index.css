@@ -1,0 +1,103 @@
+body {
+  background-color: rgba(0, 0, 0, 0.249);
+  color: rgba(0, 0, 0, 0.641);
+}
+
+nav {
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.596);
+  padding: 25px;
+  border-radius: 3px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: rgba(240, 255, 255, 0.8);
+  padding: 10px 10px;
+  border-radius: 3px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover, nav a:focus {
+  background-color: rgba(240, 255, 255, 0.1);
+  color: rgba(240, 255, 255, 1);
+}
+
+nav a.active {
+  font-weight: bold;
+  color: rgba(245, 222, 179, 0.741);
+  border-bottom: 2px solid  rgba(245, 222, 179, 0.741);;
+  padding-bottom: 5px;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.2s;
+  margin: 3%;
+  a{
+    color: white;
+  }
+}
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+}
+
+input{
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.search-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+}
+
+@media screen  and (width < 650px){
+  #register-company, #login-company {
+      width: 500px;
+  }
+}
+
+@media screen  and (width < 570px){
+  #register-company,  #login-company{
+      width: 400px;
+  }
+}
+
+@media screen  and (width < 490px){
+  #register-company,  #login-company{
+      width: 300px;
+  }
+}
+
